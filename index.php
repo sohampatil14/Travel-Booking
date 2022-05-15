@@ -115,8 +115,6 @@ session_start();
       <div class="carousel-inner">
         <div class="carousel-item active">
         
-        <h1>Go Home Go</h1>
-        
         <?php
         
         $server = "localhost";
