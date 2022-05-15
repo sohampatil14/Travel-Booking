@@ -1,0 +1,40 @@
+.info {
+  margin-top: 40px;
+  margin-left: 245px;
+  margin-right: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  color: #dc2f55;
+  background-color: #15172b;
+  width: 500px;
+}
+
+h4 {
+  font-size: medium;
+}
+
+.cost-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". .";
+    
+}
+
+.static {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.dynamic {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
